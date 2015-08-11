@@ -20,6 +20,11 @@
 		974C31F31B757C6D0023ED77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C31EC1B757BB40023ED77 /* CoreGraphics.framework */; };
 		974C31F41B757C760023ED77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C31F01B757BC30023ED77 /* Foundation.framework */; };
 		974C31F51B757C7B0023ED77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974C31EE1B757BBA0023ED77 /* UIKit.framework */; };
+		974C31F81B7667C30023ED77 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C31F71B7667C30023ED77 /* User.m */; };
+		974C31FB1B76686C0023ED77 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C31FA1B76686C0023ED77 /* Media.m */; };
+		974C31FE1B76692D0023ED77 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C31FD1B76692D0023ED77 /* Comment.m */; };
+		974C32011B7669BC0023ED77 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C32001B7669BC0023ED77 /* DataSource.m */; };
+		974C32041B77A9600023ED77 /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 974C32031B77A9600023ED77 /* MediaTableViewCell.m */; };
 		97F264101B6843C600D40C5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F2640F1B6843C600D40C5D /* main.m */; };
 		97F264131B6843C600D40C5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F264121B6843C600D40C5D /* AppDelegate.m */; };
 		97F2641B1B6843C600D40C5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F2641A1B6843C600D40C5D /* Images.xcassets */; };
@@ -52,6 +57,16 @@
 		974C31EC1B757BB40023ED77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		974C31EE1B757BBA0023ED77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		974C31F01B757BC30023ED77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		974C31F61B7667C30023ED77 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		974C31F71B7667C30023ED77 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		974C31F91B76686C0023ED77 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		974C31FA1B76686C0023ED77 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		974C31FC1B76692D0023ED77 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		974C31FD1B76692D0023ED77 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		974C31FF1B7669BC0023ED77 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		974C32001B7669BC0023ED77 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		974C32021B77A9600023ED77 /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
+		974C32031B77A9600023ED77 /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
 		97F2640A1B6843C600D40C5D /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F2640E1B6843C600D40C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F2640F1B6843C600D40C5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +183,16 @@
 				97F264121B6843C600D40C5D /* AppDelegate.m */,
 				97F264491B68472600D40C5D /* ImagesTableViewController.h */,
 				97F2644A1B68472600D40C5D /* ImagesTableViewController.m */,
+				974C32021B77A9600023ED77 /* MediaTableViewCell.h */,
+				974C32031B77A9600023ED77 /* MediaTableViewCell.m */,
+				974C31F61B7667C30023ED77 /* User.h */,
+				974C31F91B76686C0023ED77 /* Media.h */,
+				974C31FA1B76686C0023ED77 /* Media.m */,
+				974C31FC1B76692D0023ED77 /* Comment.h */,
+				974C31FD1B76692D0023ED77 /* Comment.m */,
+				974C31FF1B7669BC0023ED77 /* DataSource.h */,
+				974C32001B7669BC0023ED77 /* DataSource.m */,
+				974C31F71B7667C30023ED77 /* User.m */,
 				97F2641A1B6843C600D40C5D /* Images.xcassets */,
 				97F2641C1B6843C600D40C5D /* LaunchScreen.xib */,
 				97F2640D1B6843C600D40C5D /* Supporting Files */,
@@ -284,7 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974C31F81B7667C30023ED77 /* User.m in Sources */,
+				974C31FE1B76692D0023ED77 /* Comment.m in Sources */,
+				974C32041B77A9600023ED77 /* MediaTableViewCell.m in Sources */,
+				974C31FB1B76686C0023ED77 /* Media.m in Sources */,
 				97F264131B6843C600D40C5D /* AppDelegate.m in Sources */,
+				974C32011B7669BC0023ED77 /* DataSource.m in Sources */,
 				97F264101B6843C600D40C5D /* main.m in Sources */,
 				97F2644B1B68472600D40C5D /* ImagesTableViewController.m in Sources */,
 			);
